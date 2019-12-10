@@ -74,7 +74,7 @@ class Dog
     else
       dog = self.create(name: name, breed: breed)
     end
-  end  
+  end
 
   def update
     sql = "UPDATE dogs SET name = ?, breed = ? WHERE id = ?"
